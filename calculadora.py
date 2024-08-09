@@ -29,7 +29,7 @@ else:
         return quantidade_list
     def input_custo(options): # inputando custos
         for option in options:
-            custo_list.append(st.number_input('Custo (em R$)de ' + option, min_value=0))
+            custo_list.append(st.number_input('Custo (em R$) de ' + option, min_value=0))
         return custo_list
     def input_margem(options): # inputando margem de lucro desejada
         for option in options:
