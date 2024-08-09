@@ -4,7 +4,7 @@ import numpy as np
 
 
 #lendo base de dados e montando lista de materias
-database = pd.read_csv(r'C:\Users\leole\Documents\VS Code\Streamlit\calculadora_pedra\data\base.csv')
+database = pd.read_csv(r'data/base.csv')
 options_list = database['material'].unique().tolist()
 
 
