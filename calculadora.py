@@ -9,6 +9,8 @@ options_list = database['material'].unique().tolist()
 
 
 st.title('Calculadora de Orçamento') # titulo
+st.subheader('Na hora de colocar os valores, digite apenas números, sem caracteres especiais')
+
 
 options = st.multiselect(
     'Escolha os materiais:',
